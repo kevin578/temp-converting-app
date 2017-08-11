@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,49 +21,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="212" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="005-Uf-7FD">
-                                <rect key="frame" x="168" y="138" width="40.5" height="31.5"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYN-F0-Wv3">
-                                <rect key="frame" x="158" y="226" width="60.5" height="22.5"/>
+                                <rect key="frame" x="157" y="227" width="61" height="23"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdu-zw-QSx">
-                                <rect key="frame" x="168" y="303.5" width="40.5" height="31.5"/>
+                                <rect key="frame" x="167" y="305" width="41" height="32"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees celcius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJm-aQ-VTt">
-                                <rect key="frame" x="129.5" y="370" width="117.5" height="22.5"/>
+                                <rect key="frame" x="129" y="372" width="118" height="23"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees farenheight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QiX-Ap-dcK">
-                                <rect key="frame" x="110" y="185.5" width="155" height="22.5"/>
+                                <rect key="frame" x="110" y="186" width="155" height="23"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="value" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UEh-wN-63n">
+                                <rect key="frame" x="160" y="134" width="55" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.56047050499999995" blue="0.21390091080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="005-Uf-7FD" firstAttribute="trailing" secondItem="Pdu-zw-QSx" secondAttribute="trailing" id="3uQ-Mg-BZg"/>
+                            <constraint firstItem="fJm-aQ-VTt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4QE-pB-Cz7"/>
+                            <constraint firstItem="Pdu-zw-QSx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6hQ-8K-75P"/>
                             <constraint firstItem="Pdu-zw-QSx" firstAttribute="centerX" secondItem="fJm-aQ-VTt" secondAttribute="centerX" id="7kv-iV-udg"/>
+                            <constraint firstItem="QiX-Ap-dcK" firstAttribute="top" secondItem="UEh-wN-63n" secondAttribute="bottom" constant="22" id="7sj-N0-Gg3"/>
                             <constraint firstItem="fJm-aQ-VTt" firstAttribute="top" secondItem="Pdu-zw-QSx" secondAttribute="bottom" constant="35" id="BJg-dQ-YlK"/>
-                            <constraint firstItem="QiX-Ap-dcK" firstAttribute="top" secondItem="005-Uf-7FD" secondAttribute="bottom" constant="16" id="JNK-95-koV"/>
+                            <constraint firstItem="UEh-wN-63n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C0I-v1-2UT"/>
+                            <constraint firstItem="UEh-wN-63n" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="IZj-T3-uwL"/>
                             <constraint firstItem="cYN-F0-Wv3" firstAttribute="top" secondItem="QiX-Ap-dcK" secondAttribute="bottom" constant="18" id="PDH-jC-9D9"/>
-                            <constraint firstItem="005-Uf-7FD" firstAttribute="centerX" secondItem="QiX-Ap-dcK" secondAttribute="centerX" id="Qw7-9d-8Uc"/>
                             <constraint firstItem="QiX-Ap-dcK" firstAttribute="centerX" secondItem="cYN-F0-Wv3" secondAttribute="centerX" id="WUm-4S-JR6"/>
-                            <constraint firstItem="005-Uf-7FD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="118" id="dev-n3-pJf"/>
                             <constraint firstItem="Pdu-zw-QSx" firstAttribute="top" secondItem="cYN-F0-Wv3" secondAttribute="bottom" constant="55" id="gBM-UN-WJc"/>
-                            <constraint firstItem="005-Uf-7FD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zEn-eC-NiT"/>
+                            <constraint firstItem="UEh-wN-63n" firstAttribute="centerX" secondItem="QiX-Ap-dcK" secondAttribute="centerX" id="waW-nc-PEh"/>
                         </constraints>
                     </view>
                 </viewController>
